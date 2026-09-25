@@ -9,72 +9,198 @@
 
 <body>
 
-    <header>
-        <h1>Hi, I'm Ashley Wanjiru Waweru 👋🏽</h1>
-        <p>Information Technology Student | Aspiring Web Developer | AI & Machine Learning Enthusiast</p>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Ashley W.</a>
+
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hi, I'm Ashley Wanjiru Waweru 👋🏽</h1>
+
+            <p class="hero-text">
+                Information Technology Student | Aspiring Web Developer |
+                AI & Machine Learning Enthusiast
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="button primary">View My Projects</a>
+
+                <a href="https://github.com/ashleywaweru-dev"
+                   class="button secondary"
+                   target="_blank">
+                    🐙 GitHub Profile
+                </a>
+            </div>
+        </div>
     </header>
 
     <main>
 
-        <section>
-            <h2>About Me</h2>
+        <section id="about" class="section">
+            <div class="section-heading">
+                <span>01</span>
+                <h2>About Me</h2>
+            </div>
+
             <p>
                 I am an Information Technology student from Kenya with a passion
                 for technology, software development, and digital innovation.
                 I enjoy learning new technologies and building solutions to
                 real-world problems.
             </p>
-        </section>
 
-        <section>
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML & CSS</li>
-                <li>Python</li>
-                <li>Flask</li>
-                <li>MySQL</li>
-                <li>Git & GitHub</li>
-                <li>Networking</li>
-                <li>Technical Support</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Projects</h2>
-
-            <h3>SkanemAI Helpdesk</h3>
             <p>
-                An AI-assisted helpdesk project focused on classifying,
-                prioritizing, and assigning technical support tickets.
-            </p>
-
-            <h3>Personal Portfolio Website</h3>
-            <p>
-                A personal website built using HTML and CSS to showcase my
-                skills, projects, education, and technology journey.
+                I am particularly interested in Web Development, Artificial
+                Intelligence, and Machine Learning, and I am continuously
+                developing my technical skills through academic and personal
+                projects.
             </p>
         </section>
 
-        <section>
-            <h2>Education</h2>
-            <p>
-                Bachelor of Science in Information Technology — JKUAT
-            </p>
-            <p>
-                Diploma in Information Technology — JKUAT
-            </p>
+
+        <section id="skills" class="section">
+            <div class="section-heading">
+                <span>02</span>
+                <h2>Skills</h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card">HTML & CSS</div>
+                <div class="skill-card">Python</div>
+                <div class="skill-card">Flask</div>
+                <div class="skill-card">MySQL</div>
+                <div class="skill-card">Git & GitHub</div>
+                <div class="skill-card">Networking</div>
+                <div class="skill-card">Technical Support</div>
+                <div class="skill-card">Linux & Windows</div>
+            </div>
         </section>
 
-        <section>
-            <h2>Contact</h2>
-            <p>Email: waweruashley9@gmail.com</p>
-            <p>Location: Kenya 🇰🇪</p>
+
+        <section id="projects" class="section">
+            <div class="section-heading">
+                <span>03</span>
+                <h2>Projects</h2>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-icon">🤖</div>
+
+                    <h3>SkanemAI Helpdesk</h3>
+
+                    <p>
+                        An AI-assisted helpdesk project focused on classifying,
+                        prioritizing, and assigning technical support tickets.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>AI</span>
+                        <span>Flask</span>
+                        <span>MySQL</span>
+                    </div>
+                </article>
+
+
+                <article class="project-card">
+                    <div class="project-icon">🌐</div>
+
+                    <h3>Personal Portfolio Website</h3>
+
+                    <p>
+                        A responsive personal portfolio website built to
+                        showcase my skills, education, projects, and journey
+                        in Information Technology.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>GitHub</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+        <section id="education" class="section">
+            <div class="section-heading">
+                <span>04</span>
+                <h2>Education</h2>
+            </div>
+
+            <div class="education-item">
+                <div class="education-year">2026 – Present</div>
+                <div>
+                    <h3>Bachelor of Science in Information Technology</h3>
+                    <p>Jomo Kenyatta University of Agriculture and Technology (JKUAT)</p>
+                </div>
+            </div>
+
+            <div class="education-item">
+                <div class="education-year">Completed</div>
+                <div>
+                    <h3>Diploma in Information Technology — Credit</h3>
+                    <p>Jomo Kenyatta University of Agriculture and Technology (JKUAT)</p>
+                </div>
+            </div>
+
+            <div class="education-item">
+                <div class="education-year">2024</div>
+                <div>
+                    <h3>Certificate in Information Technology — Credit</h3>
+                    <p>Jomo Kenyatta University of Agriculture and Technology (JKUAT)</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="section contact-section">
+            <div class="section-heading">
+                <span>05</span>
+                <h2>Let's Connect</h2>
+            </div>
+
+            <p>
+                I'm always interested in learning, collaborating, and exploring
+                new opportunities in technology.
+            </p>
+
+            <div class="contact-buttons">
+
+                <a href="mailto:waweruashley9@gmail.com" class="button primary">
+                    📧 Email Me
+                </a>
+
+                <a href="https://github.com/ashleywaweru-dev"
+                   class="button secondary"
+                   target="_blank">
+                    🐙 Visit My GitHub
+                </a>
+
+            </div>
         </section>
 
     </main>
 
+
     <footer>
-        <p>© 2026 Ashley Wanjiru Waweru</p>
+        <p>© 2026 Ashley Wanjiru Waweru. Built with HTML & CSS 💜</p>
     </footer>
 
 </body>
